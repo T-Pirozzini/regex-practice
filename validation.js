@@ -3,7 +3,8 @@ console.log(inputs)
 
 const patterns = {
   username: /^[a-z\d]{5,12}$/i,
-  password: /^[\w@-]{6,20}$/i,
+  email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
+  password: /^[\w@-]{6,20}$/,
   telephone: /^\d{10}$/,
   nickname: /^[a-z\d-]{8,20}$/
 }
